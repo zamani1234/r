@@ -86,13 +86,13 @@ img{
 .register{
 	color:#9a21af;
 	font-size:22px;
-	border-radius:30px;
+	border-radius:40px;
 	background-color:white;
-	width:160px;
+	width:220px;
 	padding:16px;
 	text-align:center;
 	box-shadow:1px 4px 16px #401e7c;
-
+	
 
 }
 
@@ -110,14 +110,20 @@ a{
 }
 
 
-span{
-	font-size:22px;
-	
+.lo{
+	width:50px;
+	height:50px;
 	padding:10px;
-	border-radius:80px;
+	border-radius:300px;
 	border:2px solid white;
 	margin:5px;
 	color:white;
+	display:flex;
+	flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    align-items: center;
 
 }
 
@@ -125,19 +131,22 @@ span{
 .icon{
 	margin-top:80px;
 	float:right;
+	display:flex;
 	
 	
 	
 }
 
 
-span:hover{
+.lo:hover{
 
 	box-shadow: 2px 5px 30px rgba(0,0,0,.1);
 	color:red;
 	text-decoration:none;
 	
 }
+
+
 
 
 /* start responsive */
